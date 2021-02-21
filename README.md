@@ -1,15 +1,15 @@
 # 15_puzzle
 15 puzzle problem solved with bruteforce Breadth First Search(BFS)
 
-##Description
+## Description
 This code aims at solving 15 puzzle problem with bfs. All the nodes corresponding with different positions of the blank tile are explored until a goal is found.
 
-##Dependencies
+## Dependencies
 python -version 3
 Numpy
 copy
 math
 
-##Run Code
+## Run Code
 
-###Enter the following to generate output files.
+### Enter the following to generate output files.
