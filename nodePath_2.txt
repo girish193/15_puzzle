@@ -1,0 +1,52 @@
+Goal State reached at node 66 !!!
+Required Solution trajectory:	 1 -> 2 -> 5 -> 12 -> 29 -> 66
+
+Time taken to solve:	6.985 ms
+
+1) Node State: 1
+	String Representation: 	1 5 9 13 0 2 6 14 3 7 10 15 4 8 11 12 
+	Array Representation:  
+[[ 1  0  3  4]
+ [ 5  2  7  8]
+ [ 9  6 10 11]
+ [13 14 15 12]]
+
+2) Node State: 2
+	String Representation: 	1 5 9 13 2 0 6 14 3 7 10 15 4 8 11 12 
+	Array Representation:  
+[[ 1  2  3  4]
+ [ 5  0  7  8]
+ [ 9  6 10 11]
+ [13 14 15 12]]
+
+3) Node State: 5
+	String Representation: 	1 5 9 13 2 6 0 14 3 7 10 15 4 8 11 12 
+	Array Representation:  
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9  0 10 11]
+ [13 14 15 12]]
+
+4) Node State: 12
+	String Representation: 	1 5 9 13 2 6 10 14 3 7 0 15 4 8 11 12 
+	Array Representation:  
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10  0 11]
+ [13 14 15 12]]
+
+5) Node State: 29
+	String Representation: 	1 5 9 13 2 6 10 14 3 7 11 15 4 8 0 12 
+	Array Representation:  
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11  0]
+ [13 14 15 12]]
+
+6) Node State: 66
+	String Representation: 	1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 0 
+	Array Representation:  
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]
+ [13 14 15  0]]
