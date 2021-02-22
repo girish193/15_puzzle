@@ -8,7 +8,7 @@ This code aims at solving 15 puzzle problem with BFS. All the nodes correspondin
 * python -version 3
 * Numpy
 * copy
-* math
+* time
 
 ## Function Descriptions 
 ### Array to String: 
@@ -24,9 +24,10 @@ In this function the values returned from blank_tile_swapping function are store
 In this function the root node is called as initial_state. The node_states dictionary is updated with root node and key as node number, here it is 1. Following this the tree generation function is called to generate the tree elements until the goal state is reached. 
 
 
-
-
-
 ## Run Code
+Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. All the test cases are given 
+as input and solutions are found in the same python file. Further "nodePath_{*}.txt" files are generated which contains 
+the solution strategy for a given initial and goal states.
 
-### Enter the following to generate output files.
+
+ 
