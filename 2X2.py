@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[5]:
-
-
 import numpy as np 
 import copy 
 import math 
@@ -138,11 +136,7 @@ if __name__ == "__main__":
             node_states = tree_generation(node_states, current_node)
             print("\n\nIteration Number: {}".format(node_index))
             print(node_states)
-
-    # print("\n",node_states)
-
-        current_node = String_to_Array(list(node_states.values())[node_index])
-        if ((current_node == goal_state).all()):
-            print("\nGoal State reached (check node {})".format(node_index+1))
-            break 
-
+            f = open('./nodePath.txt','ab')
+            np.savetxt(f,current_node,delimiter=' ',fmt='%d')
+            f.write(b"\n")
+            f.close()
