@@ -17,7 +17,7 @@ def String_to_Array(string):
     new_list = string.split("|")[:-1]
     for i in range(len(new_list)):
         new_list[i]=int(new_list[i])
-    array = np.array(new_list).reshape(2,2) # this will be a 2X2 array!
+    array = np.array(new_list).reshape(2,2, order='F') # this will be a 2X2 array!
     return array 
     
 def blank_tile_swapping(current_node): 
