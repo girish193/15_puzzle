@@ -1,6 +1,6 @@
 ## Run Code
 
-Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. All the test cases are given as input and solutions are found in the same python file. Further "nodePath_{*}.txt" files are generated which contains the solution strategy for a given initial and goal states.
+Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. All the test cases are given as input and solutions are found in the same python file. Further "nodePath_{*}.txt" files are generated which contains the solution strategy for a given initial and goal states.Also it contains information of other nodes generated (only string representation is mentioned in column major order).
 
 ## Description
 This code aims at solving 15 puzzle problem with BFS. All the nodes corresponding with different positions of the blank tile are explored until a goal is found.
