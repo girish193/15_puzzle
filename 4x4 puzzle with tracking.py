@@ -244,6 +244,13 @@ def puzzle_solution(initial_state, goal_state, test_case):
         required_array = String_to_Array(required_string)
         myfile.write('\n\tArray Representation:  \n{0}'.format(required_array))
         count += 1
+        
+    myfile.write('\n\n\n\t ---------- All the nodes generated while doing BFS (string representation in column major order)  ----------\n')
+    
+    nodes_keys = list(node_states.keys())
+    
+    for keys in nodes_keys:        
+        myfile.write('\n Node State {0} : \t {1}'.format(keys, node_states[keys]))   
 
     myfile.close()
     
